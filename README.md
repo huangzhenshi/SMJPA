@@ -19,3 +19,5 @@ Spring data JPA+Spring mvc +mybatis+PageHelper ，实现跨数据库的同时，
 5）	SpringDataJpa 支持按照方法名查询，也支持一般的分页查询，实在不想写，也可以拼sql实现 复杂查询，特别是在联级操作的时候，而不依赖mybatis
 
 6）	支持自定义SQL的修改、删除，所以基本上 JPA可以完成所有的 DML操作，不需要借助 Mybatis
+
+7）  主键是自定义生成的 用的是 java  32位的UUID，已经测试过 mysql 和 oracle都可以用的
